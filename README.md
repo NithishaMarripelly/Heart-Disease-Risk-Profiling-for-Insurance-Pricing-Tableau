@@ -75,12 +75,7 @@ Insight: The map visualization provides a geographical perspective on stroke pre
 
 ---
 
+## Challenges
 
-
-Challenges Faced:
-During the development of this dashboard, you tackled common challenges associated with visualizing complex datasets containing numerous categorical variables:
-
-Challenge of Category Consolidation for Clarity: You found it essential to strategically combine existing categories (e.g., merging detailed AgeCategory bins into broader age groups or consolidating specific Diabetic sub-types). This was crucial to simplify the visualizations, reduce visual clutter, and ensure that the graphs were not overwhelmed by too many distinct segments, making the core insights more apparent to the viewer.
-
-Challenge of Including Multiple Categorical Columns: A significant hurdle was trying to show the relationships between several different categorical columns simultaneously on a single graph. Such attempts often lead to messy, unreadable charts. You addressed this by opting for a dashboard approach with multiple, simpler visualizations, or by using interactive elements that allow users to explore different relationships one at a time, ensuring that the information remained digestible and clear.
+Basically, visualizing our health data was tricky because of two things. First, we had to group similar categories together – like combining all the different age ranges into just a few big groups – because showing every single one made the graphs way too messy. And second, trying to put too many different types of categories on one graph at the same time (like smoking, drinking, and gender all together) just didn't work. We got around this by making our dashboard with lots of smaller, simpler graphs, which made everything much clearer!
 
